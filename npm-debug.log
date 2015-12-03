@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   './node_modules/karma/bin/karma',
+1 verbose cli   'start' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/priscillarodriguez/Documents/ITP404/UnitTesting/package.json
+5 verbose readDependencies loading dependencies from /Users/priscillarodriguez/Documents/ITP404/UnitTesting/package.json
+6 silly cache add args [ './node_modules/karma/bin/karma', null ]
+7 verbose cache add spec ./node_modules/karma/bin/karma
+8 silly cache add args [ 'start', null ]
+9 verbose cache add spec start
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: './node_modules/karma/bin/karma',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: './node_modules/karma/bin/karma',
+10 silly cache add   spec: '/Users/priscillarodriguez/Documents/ITP404/UnitTesting/node_modules/karma/bin/karma',
+10 silly cache add   type: 'local' }
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'start',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'start',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 silly addNamed start@*
+13 verbose addNamed "*" is a valid semver range for start
+14 silly addNameRange { name: 'start', range: '*', hasData: false }
+15 silly mapToRegistry name start
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/start
+19 verbose addNameRange registry:https://registry.npmjs.org/start not in flight; fetching
+20 error addLocal Could not install /Users/priscillarodriguez/Documents/ITP404/UnitTesting/node_modules/karma/bin/karma
+21 verbose request uri https://registry.npmjs.org/start
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 8:18:55 PM
+24 verbose request id 888290adf48f2f41
+25 http request GET https://registry.npmjs.org/start
+26 http 200 https://registry.npmjs.org/start
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   etag: '"5P7N89CRZ7H7OK8G3OGNPLDE5"',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=60',
+27 verbose headers   'content-length': '9785',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Thu, 12 Nov 2015 04:18:56 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-sjc3129-SJC',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1447301936.046049,VS0,VE45',
+27 verbose headers   vary: 'Accept' }
+28 silly get cb [ 200,
+28 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly get     etag: '"5P7N89CRZ7H7OK8G3OGNPLDE5"',
+28 silly get     'content-type': 'application/json',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     'content-length': '9785',
+28 silly get     'accept-ranges': 'bytes',
+28 silly get     date: 'Thu, 12 Nov 2015 04:18:56 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     age: '0',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-sjc3129-SJC',
+28 silly get     'x-cache': 'MISS',
+28 silly get     'x-cache-hits': '0',
+28 silly get     'x-timer': 'S1447301936.046049,VS0,VE45',
+28 silly get     vary: 'Accept' } ]
+29 verbose get saving start to /Users/priscillarodriguez/.npm/registry.npmjs.org/start/.cache.json
+30 silly addNameRange number 2 { name: 'start', range: '*', hasData: true }
+31 silly addNameRange versions [ 'start', [ '0.0.2', '1.0.1', '1.0.2', '1.1.0', '1.1.1' ] ]
+32 silly addNamed start@1.1.1
+33 verbose addNamed "1.1.1" is a plain semver version for start
+34 silly mapToRegistry name start
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/start
+38 verbose addRemoteTarball https://registry.npmjs.org/start/-/start-1.1.1.tgz not in flight; adding
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/start/-/start-1.1.1.tgz',
+39 verbose addRemoteTarball   '3019c23296fd39a33de2a9192751a4367c78353a' ]
+40 info retry fetch attempt 1 at 8:18:56 PM
+41 info attempt registry request try #1 at 8:18:56 PM
+42 http fetch GET https://registry.npmjs.org/start/-/start-1.1.1.tgz
+43 http fetch 200 https://registry.npmjs.org/start/-/start-1.1.1.tgz
+44 silly fetchAndShaCheck shasum 3019c23296fd39a33de2a9192751a4367c78353a
+45 verbose addTmpTarball /var/folders/pc/970y35p12216s0phs_0cyc100000gn/T/npm-22836-d9e005cc/registry.npmjs.org/start/-/start-1.1.1.tgz not in flight; adding
+46 verbose addTmpTarball already have metadata; skipping unpack for start@1.1.1
+47 silly cache afterAdd start@1.1.1
+48 verbose afterAdd /Users/priscillarodriguez/.npm/start/1.1.1/package/package.json not in flight; writing
+49 verbose afterAdd /Users/priscillarodriguez/.npm/start/1.1.1/package/package.json written
+50 verbose stack Error: ENOENT: no such file or directory, open '/Users/priscillarodriguez/Documents/ITP404/UnitTesting/node_modules/karma/bin/karma'
+50 verbose stack     at Error (native)
+51 verbose cwd /Users/priscillarodriguez/Documents/ITP404/UnitTesting
+52 error Darwin 14.4.0
+53 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "./node_modules/karma/bin/karma" "start"
+54 error node v4.2.1
+55 error npm  v2.14.7
+56 error path /Users/priscillarodriguez/Documents/ITP404/UnitTesting/node_modules/karma/bin/karma
+57 error code ENOENT
+58 error errno -2
+59 error syscall open
+60 error enoent ENOENT: no such file or directory, open '/Users/priscillarodriguez/Documents/ITP404/UnitTesting/node_modules/karma/bin/karma'
+60 error enoent This is most likely not a problem with npm itself
+60 error enoent and is related to npm not being able to find a file.
+61 verbose exit [ -2, true ]
